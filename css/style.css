@@ -9,7 +9,13 @@
 
 body{
         background-color: navajowhite;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100vh;
+        justify-content: center;
     }
+        
 
 .cabecalho{
         display: flex; /* filhos um do lado do outro */
@@ -50,3 +56,9 @@ body{
     text-decoration: none;
     padding: 16px;
 }
+
+.btns a:hover{
+    background-color: chocolate;
+    color: aliceblue;
+}
+    
